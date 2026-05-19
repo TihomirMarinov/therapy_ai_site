@@ -140,3 +140,14 @@ src/
 - Keep changes scoped to the requested task.
 - Verify important UI changes in a browser when possible.
 - Document major decisions in this file.
+
+## Commit Convention
+
+- Use only two commit types: `feat` and `fix`.
+- `feat` is the default commit type.
+- Use `fix` only when explicitly fixing a bug.
+- Every commit message must include an incrementing project identifier in the format `[UP-<number>]`.
+- The identifier starts from `[UP-1]` and increments by one for each new commit: `[UP-1]`, `[UP-2]`, `[UP-3]`, and so on.
+- The message text after the identifier must start with a capital letter.
+- Format: `<type>: [UP-<number>] - <Message>`
+- Example: `feat: [UP-1] - Init project`
